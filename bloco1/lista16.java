@@ -18,7 +18,7 @@ public class lista16 {
 	
 	public static void questao2(int ...lista) {
 		
-		/* Ler 10 números e imprimir quantos são pares e quantos são ímpares. (FOR) */
+		/* Ler 10 números e imprimir quantos são pares e quantos são ímpares. (FOR)*/
 		
 		int par = 0;
 		int impar = 0;
