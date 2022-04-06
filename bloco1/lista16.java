@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class lista16 {
 	
 	
+	private static Scanner input = new Scanner(System.in);
+
 	public static void questao1() {
 		
 		/* Informar todos os números de 1000 a 1999 que quando divididos por 11
@@ -15,6 +17,7 @@ public class lista16 {
 		}
 		
 	}
+
 	
 	public static void questao2(int ...lista) {
 		
@@ -32,6 +35,7 @@ public class lista16 {
 		System.out.println("Número de ímpares: " + impar);
 	}
 	
+	
 	public static void questao3() {
 
 		/*
@@ -40,7 +44,6 @@ public class lista16 {
 		  idade for =-99. (WHILE)
 		 */
 
-		Scanner input = new Scanner(System.in);
 
 		int idade = 0;
 
@@ -49,10 +52,11 @@ public class lista16 {
 		int maior50Anos = 0;
 
 		while (idade != -99) {
-
+			
+			
 			System.out.print("Digite a idade:");
 			idade = input.nextInt();
-
+		
 			if (idade < 21)
 				menor21Anos++;
 			if (idade > 50)
@@ -79,7 +83,6 @@ public class lista16 {
 			 o número de pessoas nervosas com mais de 40 anos;
 			 o número de pessoas calmas com menos de 18 anos.*/
 		
-		Scanner input = new Scanner(System.in);
 		
 		int calmas = 0;
 		int mulheresNervosas = 0;
@@ -124,27 +127,28 @@ public class lista16 {
 		
 	}
 	
-public static void questao5() {
-		
-		/* Crie um programa que leia um número do teclado até que encontre um
-		número igual a zero. No final, mostre a soma dos números
-		digitados.(DO...WHILE) */
-		
-			Scanner input = new Scanner(System.in);
-			int numero;
-			int soma = 0;
+	
+	public static void questao5() {
 			
-			do {	
+		/*
+		 * Crie um programa que leia um número do teclado até que encontre um número
+		 * igual a zero. No final, mostre a soma dos números digitados.(DO...WHILE)
+		 */
+
+		input = new Scanner(System.in);
+		int numero;
+		int soma = 0;
+
+		do {
+
+			System.out.print("Digite um número inteiro a ser somado. Para terminar, digite zero: ");
+			numero = input.nextInt();
+			soma += numero;
+
+		} while (numero != 0);
+
+		System.out.println("Soma dos números adicionados: " + soma);
 				
-				System.out.print("Digite um número inteiro a ser somado. Para terminar, digite zero: ");
-				numero = input.nextInt();
-				soma += numero;
-				
-			} while (numero != 0);
-			
-				
-			System.out.println("Soma dos números adicionados: " + soma);
-			
 	}
 	
 	
@@ -153,8 +157,6 @@ public static void questao5() {
 		/*Escrever um programa que receba vários números inteiros no teclado. E no
 		final imprimir a média dos números múltiplos de 3. Para sair digitar
 		0(zero).(DO...WHILE)*/
-		
-		Scanner input = new Scanner(System.in);
 		
 		int numero;
 		int soma = 0;
@@ -179,6 +181,7 @@ public static void questao5() {
 		System.out.println("Média dos números adicionados que são múltiplos de três: " + media);
 
 	}
+	
 	
 	public static void main(String args[]) {
 		questao1();
