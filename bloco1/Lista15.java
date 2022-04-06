@@ -1,7 +1,7 @@
 package bloco1;
 import java.util.Arrays;
 
-public class lista15 {
+public class Lista15 {
 	
 	
 	public static void questao1(int ... v) {

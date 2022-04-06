@@ -2,7 +2,7 @@ package bloco1;
 
 import java.util.Scanner;
 
-public class lista16 {
+public class Lista16 {
 	
 	
 	private static Scanner input = new Scanner(System.in);

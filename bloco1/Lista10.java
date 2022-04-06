@@ -3,7 +3,7 @@ package bloco1;
 import java.util.Scanner;
 import java.util.Random;
 
-public class lista10 {
+public class Lista10 {
 	
 	public static void questao1() {
 		
