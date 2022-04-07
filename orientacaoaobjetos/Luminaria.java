@@ -10,7 +10,7 @@ public class Luminaria {
 	public Luminaria(String marca, int intensidade) {
 		this.marca = marca;
 		this.intensidadeMax = intensidade;
-		ligada = false;
+		this.ligada = false;
 	}
 	
 	public void ligar() {

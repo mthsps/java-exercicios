@@ -17,7 +17,7 @@ public class ContaBancaria {
 		this.saldo = saldo;
 		this.senha = senha;
 		this.anoNascimento = anoNascimento;
-		status = "aberta";
+		this.status = "aberta";
 	}
 
 	

@@ -11,18 +11,17 @@ public class Paciente {
 	private LocalDate dataAlta;
 	
 	public Paciente(String nome, String medicoResponsavel, String remedioPrincipal) {
-		super();
 		this.nome = nome;
 		this.medicoResponsavel = medicoResponsavel;
 		this.remedioPrincipal = remedioPrincipal;
-		estadoSaude = "diagnostico";
+		this.estadoSaude = "diagnostico";
 	}
 	
 	
 	public void medicar() {
 		System.out.println(remedioPrincipal + " foi dado para " + nome + ".");
 		estadoSaude = "tratamento";
-	};
+	}	
 	
 	public void trocarMedicamento(String remedio) {
 		System.out.println("Troca de medicamento registrada no prontuário.");

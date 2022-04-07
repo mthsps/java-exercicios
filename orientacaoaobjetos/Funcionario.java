@@ -17,8 +17,8 @@ public class Funcionario {
 		this.idade = idade;
 		this.cargo = cargo;
 		this.tempoTrabalho = tempoTrabalho;
-		this.definirSalario(salario);
-		this.definirStatus(status);
+		this.salario = salario;
+		this.status = status;
 	} 
 	
 	
