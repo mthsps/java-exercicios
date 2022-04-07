@@ -1,4 +1,4 @@
-package bloco1;
+package logica;
 import java.util.Arrays;
 
 public class Lista15 {

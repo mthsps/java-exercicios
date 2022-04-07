@@ -1,4 +1,4 @@
-package bloco1;
+package logica;
 
 import java.util.Scanner;
 import java.util.Random;
